@@ -12,5 +12,5 @@ This repository contains the HW6 assignment using localpackages with a submodule
 2. Open the `HW6` folder in VS Code.
 3. Set the `PYTHONPATH` to include the `HW6` directory:
    - In the terminal: `export PYTHONPATH=$PYTHONPATH:/path/to/HW6`
-4. Run `main_script.py`:
+4. Run `Homework6.py`:
    - In the terminal: `python Homework6.py`
