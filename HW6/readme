@@ -6,11 +6,11 @@ This repository contains the HW6 assignment using localpackages with a submodule
   - `calculus/`: Submodule for calc opoerations
     - `__init__.py`: Marks the directory as a submodule.
     - `ODE.py`: Contains the function fourth_runge_kutta, which uses the fourth order Runge Kutta method to solve a first order ODE and graph the result
-- `main_script.py`: Imports the function from ODE.py and uses the package to solve three problems.
+- `Homework6.py`: Imports the function from ODE.py and uses the package to solve three problems.
 ## Setup Instructions
 1. Clone this repository to your local machine.
 2. Open the `HW6` folder in VS Code.
 3. Set the `PYTHONPATH` to include the `HW6` directory:
    - In the terminal: `export PYTHONPATH=$PYTHONPATH:/path/to/HW6`
 4. Run `main_script.py`:
-   - In the terminal: `python main_script.py`
+   - In the terminal: `python Homework6.py`
