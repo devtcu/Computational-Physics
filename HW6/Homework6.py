@@ -7,7 +7,7 @@ def f(x,t):
 def f2(x,t):
     return -x**3 + np.cos(t)
 def f3(x,t):
-    return -x**3 + np.tan(t)
+    return np.e ** (x + t)
 
 def main():
     
