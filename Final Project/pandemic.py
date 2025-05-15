@@ -6,14 +6,14 @@ from matplotlib.animation import FuncAnimation
 import time
 
 #global constants (tuneable)
-g_size = 15 #grid_size (if you suqare this number, that is the population contained in our simulation)
+g_size = 7 #grid_size (if you suqare this number, that is the population contained in our simulation)
 infectious_rate = 0.4 #chance of being infected
-mortality = 0.1 #chance of death
+mortality = 0.9 #chance of death
 recovery_time = 100 #timesteps required for recovery (leading, susbequently, to immunity)
 total_time = 500 #timesteps for the duration of the pandemic
 collision_dist = 0.3 #minimum distance between two people before we they are pushed apart to prevent overlapping, which would be unrealistic
 mask_percent = 0.5 #population to be masked - 50%
-mask_lowered_infect_chance = 0.1 #decrease in the likelihood of infection if a person wears a mask
+mask_lowered_infect_chance = 0.4 #decrease in the likelihood of infection if a person wears a mask
 
 class person:
     def __init__(self, x=0, y=0, infected=False, alive=True, immune=False, masked=False):
